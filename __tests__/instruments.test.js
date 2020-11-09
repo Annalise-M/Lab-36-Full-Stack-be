@@ -14,6 +14,7 @@ describe('Instrument model', () => {
     expect(theAnswer).toEqual(theAnswer);
   });
 
+  
   //   it('inserts a new instrument into the database', async() => {
   //     const createdInstrument = await Instrument.insert({
   //       make_model: 'Teisco EB-200 Bass',
@@ -32,6 +33,5 @@ describe('Instrument model', () => {
 
   //     expect(rows[0]).toEqual(createdInstrument);
   //   });
-
 
 });
