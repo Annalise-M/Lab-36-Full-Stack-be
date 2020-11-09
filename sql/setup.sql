@@ -8,5 +8,5 @@ CREATE TABLE instruments (
   scale TEXT NOT NULL,
   condition TEXT NOT NULL,
   price INT NOT NULL,
-  url VARCHAR(max) NOT NULL
+  url TEXT NOT NULL
 )
